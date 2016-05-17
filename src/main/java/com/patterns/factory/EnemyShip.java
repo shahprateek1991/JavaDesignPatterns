@@ -1,5 +1,10 @@
 package com.patterns.factory;
 
+/**
+ * 
+ * @author prateekshah
+ * Abstract product
+ */
 public abstract class EnemyShip {
 	private String name;
 	private double damage;

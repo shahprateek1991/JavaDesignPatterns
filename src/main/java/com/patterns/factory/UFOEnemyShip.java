@@ -1,5 +1,10 @@
 package com.patterns.factory;
 
+/**
+ * 
+ * @author prateekshah
+ * Concrete implementations of the products
+ */
 public class UFOEnemyShip extends EnemyShip {
 
 	public UFOEnemyShip() {
