@@ -11,6 +11,8 @@ public class MainApp {
 		
 		EnemyShip enemyShip = EnemyShipFactory.makeEnemyShip(enemyShipType);
 		enemyShip.displayEnemyShip();
+		
+		userInput.close();
 
 	}
 
