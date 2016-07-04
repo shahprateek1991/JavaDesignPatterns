@@ -1,5 +1,12 @@
 package com.patterns.facade;
 
+/**
+ * 
+ * @author prateekshah
+ * 
+ *Account facade for facading all the background operation 
+ * and providing single methods to the user
+ */
 public class AccountFacade {
 	
 	private long accountNumber;
