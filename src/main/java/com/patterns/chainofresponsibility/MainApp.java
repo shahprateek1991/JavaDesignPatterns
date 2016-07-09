@@ -33,6 +33,7 @@ public class MainApp {
 		MainApp mainApp = new MainApp();
 		
 		mainApp.getMainChain().dispenseCash(amount);
+		sc.close();
 
 	}
 
