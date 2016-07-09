@@ -27,12 +27,14 @@ public class MainApp {
 		
 		if(amount%10 !=0) {
 			System.out.println("Sorry! You need to enter the amount in multiple of 10's");
+			sc.close();
 			return;
 		}
 		
 		MainApp mainApp = new MainApp();
 		
 		mainApp.getMainChain().dispenseCash(amount);
+		sc.close();
 
 	}
 
