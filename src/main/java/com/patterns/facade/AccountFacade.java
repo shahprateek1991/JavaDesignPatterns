@@ -12,7 +12,6 @@ public class AccountFacade {
 	private long accountNumber;
 	private long securityNumber;
 	
-	private WelcomeToBank welcomeToBank;
 	private AccountCheck accountCheck;
 	private SecurityCheck securityCheck;
 	private FundTransactions fundTransactions;
@@ -21,7 +20,7 @@ public class AccountFacade {
 		this.accountNumber = accountNumber;
 		this.securityNumber = securityNumber;
 		
-		welcomeToBank = new WelcomeToBank();
+		new WelcomeToBank();
 		accountCheck = new AccountCheck();
 		securityCheck = new SecurityCheck();
 		fundTransactions = new FundTransactions();
